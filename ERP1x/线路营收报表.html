@@ -1,0 +1,2250 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>线路营收报表</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/线路营收报表/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/线路营收报表/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7993" class="ax_default box_11">
+        <div id="u7993_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7994" class="ax_default box_11">
+        <div id="u7994_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7995" class="ax_default box_11">
+        <div id="u7995_div" class=""></div>
+        <div id="u7995_text" class="text ">
+          <p><span>线路营收</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7996" class="ax_default box_11">
+        <div id="u7996_div" class=""></div>
+        <div id="u7996_text" class="text ">
+          <p><span>计调营收</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u7997" class="ax_default line1">
+        <img id="u7997_img" class="img " src="images/线路营收报表/u7997.png"/>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u7998" class="ax_default line1">
+        <img id="u7998_img" class="img " src="images/线路营收报表/u7998.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7999" class="ax_default button1">
+        <div id="u7999_div" class=""></div>
+        <div id="u7999_text" class="text ">
+          <p><span>当月报表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8000" class="ax_default button1">
+        <div id="u8000_div" class=""></div>
+        <div id="u8000_text" class="text ">
+          <p><span>当季报表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8001" class="ax_default label1">
+        <div id="u8001_div" class=""></div>
+        <div id="u8001_text" class="text ">
+          <p><span>开始时间：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8002" class="ax_default label1">
+        <div id="u8002_div" class=""></div>
+        <div id="u8002_text" class="text ">
+          <p><span>结束时间：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8003" class="ax_default box_1">
+        <div id="u8003_div" class=""></div>
+        <div id="u8003_text" class="text ">
+          <p><span>财务管理&gt; 收款管理&gt;添加收款 </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8004" class="ax_default label1">
+        <div id="u8004_div" class=""></div>
+        <div id="u8004_text" class="text ">
+          <p><span>订单状态：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u8005" class="ax_default droplist">
+        <select id="u8005_input">
+          <option selected value="全部">全部</option>
+          <option value="未确认">未确认</option>
+          <option value="未付款">未付款</option>
+          <option value="已付款">已付款</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8006" class="ax_default button1">
+        <div id="u8006_div" class=""></div>
+        <div id="u8006_text" class="text ">
+          <p><span>确定</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8007" class="ax_default button1">
+        <div id="u8007_div" class=""></div>
+        <div id="u8007_text" class="text ">
+          <p><span>清空条件</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8008" class="ax_default button1">
+        <div id="u8008_div" class=""></div>
+        <div id="u8008_text" class="text ">
+          <p><span>导出Excel</span></p>
+        </div>
+      </div>
+
+      <!-- SelectItemGroup (组合) -->
+      <div id="u8009" class="ax_default ax_default_hidden" data-label="SelectItemGroup" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8010" class="ax_default box_2">
+          <div id="u8010_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u8011" class="ax_default icon">
+          <img id="u8011_img" class="img " src="images/下单-选择产品/u4586.png"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8012" class="ax_default label1">
+          <div id="u8012_div" class=""></div>
+          <div id="u8012_text" class="text ">
+            <p><span>2016年6月</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u8013" class="ax_default icon">
+          <img id="u8013_img" class="img " src="images/下单-选择产品/u4588.png"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8014" class="ax_default label1">
+          <div id="u8014_div" class=""></div>
+          <div id="u8014_text" class="text ">
+            <p><span>一</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8015" class="ax_default label1">
+          <div id="u8015_div" class=""></div>
+          <div id="u8015_text" class="text ">
+            <p><span>二</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8016" class="ax_default label1">
+          <div id="u8016_div" class=""></div>
+          <div id="u8016_text" class="text ">
+            <p><span>三</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8017" class="ax_default label1">
+          <div id="u8017_div" class=""></div>
+          <div id="u8017_text" class="text ">
+            <p><span>四</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8018" class="ax_default label1">
+          <div id="u8018_div" class=""></div>
+          <div id="u8018_text" class="text ">
+            <p><span>五</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8019" class="ax_default label1">
+          <div id="u8019_div" class=""></div>
+          <div id="u8019_text" class="text ">
+            <p><span>六</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8020" class="ax_default label1">
+          <div id="u8020_div" class=""></div>
+          <div id="u8020_text" class="text ">
+            <p><span>日</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8021" class="ax_default box_2 selected" selectiongroup="DateValue">
+          <div id="u8021_div" class="selected"></div>
+          <div id="u8021_text" class="text ">
+            <p><span>1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8022" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8022_div" class=""></div>
+          <div id="u8022_text" class="text ">
+            <p><span>5</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8023" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8023_div" class=""></div>
+          <div id="u8023_text" class="text ">
+            <p><span>2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8024" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8024_div" class=""></div>
+          <div id="u8024_text" class="text ">
+            <p><span>3</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8025" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8025_div" class=""></div>
+          <div id="u8025_text" class="text ">
+            <p><span>4</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8026" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8026_div" class=""></div>
+          <div id="u8026_text" class="text ">
+            <p><span>8</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8027" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8027_div" class=""></div>
+          <div id="u8027_text" class="text ">
+            <p><span>12</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8028" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8028_div" class=""></div>
+          <div id="u8028_text" class="text ">
+            <p><span>9</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8029" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8029_div" class=""></div>
+          <div id="u8029_text" class="text ">
+            <p><span>10</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8030" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8030_div" class=""></div>
+          <div id="u8030_text" class="text ">
+            <p><span>11</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8031" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8031_div" class=""></div>
+          <div id="u8031_text" class="text ">
+            <p><span>15</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8032" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8032_div" class=""></div>
+          <div id="u8032_text" class="text ">
+            <p><span>19</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8033" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8033_div" class=""></div>
+          <div id="u8033_text" class="text ">
+            <p><span>16</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8034" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8034_div" class=""></div>
+          <div id="u8034_text" class="text ">
+            <p><span>17</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8035" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8035_div" class=""></div>
+          <div id="u8035_text" class="text ">
+            <p><span>18</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8036" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8036_div" class=""></div>
+          <div id="u8036_text" class="text ">
+            <p><span>22</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8037" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8037_div" class=""></div>
+          <div id="u8037_text" class="text ">
+            <p><span>26</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8038" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8038_div" class=""></div>
+          <div id="u8038_text" class="text ">
+            <p><span>23</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8039" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8039_div" class=""></div>
+          <div id="u8039_text" class="text ">
+            <p><span>24</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8040" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8040_div" class=""></div>
+          <div id="u8040_text" class="text ">
+            <p><span>25</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8041" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8041_div" class=""></div>
+          <div id="u8041_text" class="text ">
+            <p><span>7</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8042" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8042_div" class=""></div>
+          <div id="u8042_text" class="text ">
+            <p><span>6</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8043" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8043_div" class=""></div>
+          <div id="u8043_text" class="text ">
+            <p><span>14</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8044" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8044_div" class=""></div>
+          <div id="u8044_text" class="text ">
+            <p><span>13</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8045" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8045_div" class=""></div>
+          <div id="u8045_text" class="text ">
+            <p><span>21</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8046" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8046_div" class=""></div>
+          <div id="u8046_text" class="text ">
+            <p><span>20</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8047" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8047_div" class=""></div>
+          <div id="u8047_text" class="text ">
+            <p><span>29</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8048" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8048_div" class=""></div>
+          <div id="u8048_text" class="text ">
+            <p><span>30</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8049" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8049_div" class=""></div>
+          <div id="u8049_text" class="text ">
+            <p><span>28</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8050" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8050_div" class=""></div>
+          <div id="u8050_text" class="text ">
+            <p><span>27</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FromGroup (组合) -->
+      <div id="u8051" class="ax_default" data-label="FromGroup" data-left="628" data-top="343" data-width="212" data-height="24">
+
+        <!-- SelectBox (矩形) -->
+        <div id="u8052" class="ax_default box_2" data-label="SelectBox">
+          <div id="u8052_div" class=""></div>
+        </div>
+
+        <!-- DateText (矩形) -->
+        <div id="u8053" class="ax_default _文本段落" data-label="DateText">
+          <div id="u8053_div" class=""></div>
+          <div id="u8053_text" class="text ">
+            <p><span>请选择日期</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u8054" class="ax_default icon">
+          <img id="u8054_img" class="img " src="images/线路营收报表/u8054.png"/>
+        </div>
+      </div>
+
+      <!-- SelectItemGroup (组合) -->
+      <div id="u8055" class="ax_default ax_default_hidden" data-label="SelectItemGroup" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8056" class="ax_default box_2">
+          <div id="u8056_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u8057" class="ax_default icon">
+          <img id="u8057_img" class="img " src="images/下单-选择产品/u4586.png"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8058" class="ax_default label1">
+          <div id="u8058_div" class=""></div>
+          <div id="u8058_text" class="text ">
+            <p><span>2016年6月</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u8059" class="ax_default icon">
+          <img id="u8059_img" class="img " src="images/下单-选择产品/u4588.png"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8060" class="ax_default label1">
+          <div id="u8060_div" class=""></div>
+          <div id="u8060_text" class="text ">
+            <p><span>一</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8061" class="ax_default label1">
+          <div id="u8061_div" class=""></div>
+          <div id="u8061_text" class="text ">
+            <p><span>二</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8062" class="ax_default label1">
+          <div id="u8062_div" class=""></div>
+          <div id="u8062_text" class="text ">
+            <p><span>三</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8063" class="ax_default label1">
+          <div id="u8063_div" class=""></div>
+          <div id="u8063_text" class="text ">
+            <p><span>四</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8064" class="ax_default label1">
+          <div id="u8064_div" class=""></div>
+          <div id="u8064_text" class="text ">
+            <p><span>五</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8065" class="ax_default label1">
+          <div id="u8065_div" class=""></div>
+          <div id="u8065_text" class="text ">
+            <p><span>六</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8066" class="ax_default label1">
+          <div id="u8066_div" class=""></div>
+          <div id="u8066_text" class="text ">
+            <p><span>日</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8067" class="ax_default box_2 selected" selectiongroup="DateValue">
+          <div id="u8067_div" class="selected"></div>
+          <div id="u8067_text" class="text ">
+            <p><span>1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8068" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8068_div" class=""></div>
+          <div id="u8068_text" class="text ">
+            <p><span>5</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8069" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8069_div" class=""></div>
+          <div id="u8069_text" class="text ">
+            <p><span>2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8070" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8070_div" class=""></div>
+          <div id="u8070_text" class="text ">
+            <p><span>3</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8071" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8071_div" class=""></div>
+          <div id="u8071_text" class="text ">
+            <p><span>4</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8072" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8072_div" class=""></div>
+          <div id="u8072_text" class="text ">
+            <p><span>8</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8073" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8073_div" class=""></div>
+          <div id="u8073_text" class="text ">
+            <p><span>12</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8074" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8074_div" class=""></div>
+          <div id="u8074_text" class="text ">
+            <p><span>9</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8075" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8075_div" class=""></div>
+          <div id="u8075_text" class="text ">
+            <p><span>10</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8076" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8076_div" class=""></div>
+          <div id="u8076_text" class="text ">
+            <p><span>11</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8077" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8077_div" class=""></div>
+          <div id="u8077_text" class="text ">
+            <p><span>15</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8078" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8078_div" class=""></div>
+          <div id="u8078_text" class="text ">
+            <p><span>19</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8079" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8079_div" class=""></div>
+          <div id="u8079_text" class="text ">
+            <p><span>16</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8080" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8080_div" class=""></div>
+          <div id="u8080_text" class="text ">
+            <p><span>17</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8081" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8081_div" class=""></div>
+          <div id="u8081_text" class="text ">
+            <p><span>18</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8082" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8082_div" class=""></div>
+          <div id="u8082_text" class="text ">
+            <p><span>22</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8083" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8083_div" class=""></div>
+          <div id="u8083_text" class="text ">
+            <p><span>26</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8084" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8084_div" class=""></div>
+          <div id="u8084_text" class="text ">
+            <p><span>23</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8085" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8085_div" class=""></div>
+          <div id="u8085_text" class="text ">
+            <p><span>24</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8086" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8086_div" class=""></div>
+          <div id="u8086_text" class="text ">
+            <p><span>25</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8087" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8087_div" class=""></div>
+          <div id="u8087_text" class="text ">
+            <p><span>7</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8088" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8088_div" class=""></div>
+          <div id="u8088_text" class="text ">
+            <p><span>6</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8089" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8089_div" class=""></div>
+          <div id="u8089_text" class="text ">
+            <p><span>14</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8090" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8090_div" class=""></div>
+          <div id="u8090_text" class="text ">
+            <p><span>13</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8091" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8091_div" class=""></div>
+          <div id="u8091_text" class="text ">
+            <p><span>21</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8092" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8092_div" class=""></div>
+          <div id="u8092_text" class="text ">
+            <p><span>20</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8093" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8093_div" class=""></div>
+          <div id="u8093_text" class="text ">
+            <p><span>29</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8094" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8094_div" class=""></div>
+          <div id="u8094_text" class="text ">
+            <p><span>30</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8095" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8095_div" class=""></div>
+          <div id="u8095_text" class="text ">
+            <p><span>28</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8096" class="ax_default box_2" selectiongroup="DateValue">
+          <div id="u8096_div" class=""></div>
+          <div id="u8096_text" class="text ">
+            <p><span>27</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FromGroup (组合) -->
+      <div id="u8097" class="ax_default" data-label="FromGroup" data-left="329" data-top="345" data-width="212" data-height="24">
+
+        <!-- SelectBox (矩形) -->
+        <div id="u8098" class="ax_default box_2" data-label="SelectBox">
+          <div id="u8098_div" class=""></div>
+        </div>
+
+        <!-- DateText (矩形) -->
+        <div id="u8099" class="ax_default _文本段落" data-label="DateText">
+          <div id="u8099_div" class=""></div>
+          <div id="u8099_text" class="text ">
+            <p><span>请选择日期</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u8100" class="ax_default icon">
+          <img id="u8100_img" class="img " src="images/线路营收报表/u8054.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8101" class="ax_default label1">
+        <div id="u8101_div" class=""></div>
+        <div id="u8101_text" class="text ">
+          <p><span>展示内容：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8102" class="ax_default button1">
+        <div id="u8102_div" class=""></div>
+        <div id="u8102_text" class="text ">
+          <p><span>全部线路</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8103" class="ax_default button1">
+        <div id="u8103_div" class=""></div>
+        <div id="u8103_text" class="text ">
+          <p><span>单条线路</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u8104" class="ax_default droplist">
+        <select id="u8104_input">
+          <option selected value="线路营收">线路营收</option>
+          <option value="游客数量">游客数量</option>
+          <option value="订单数量">订单数量</option>
+          <option value="区域营收">区域营收</option>
+          <option value="区域收客">区域收客</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u8105" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8106" class="ax_default table_cell">
+          <img id="u8106_img" class="img " src="images/线路营收报表/u8106.png"/>
+          <div id="u8106_text" class="text ">
+            <p><span>序号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8107" class="ax_default table_cell">
+          <img id="u8107_img" class="img " src="images/价格库存/u1207.png"/>
+          <div id="u8107_text" class="text ">
+            <p><span>下单时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8108" class="ax_default table_cell">
+          <img id="u8108_img" class="img " src="images/线路营收报表/u8108.png"/>
+          <div id="u8108_text" class="text ">
+            <p><span>线路名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8109" class="ax_default table_cell">
+          <img id="u8109_img" class="img " src="images/订单详情/u4882.png"/>
+          <div id="u8109_text" class="text ">
+            <p><span>团数</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8110" class="ax_default table_cell">
+          <img id="u8110_img" class="img " src="images/线路营收报表/u8110.png"/>
+          <div id="u8110_text" class="text ">
+            <p><span>游客数</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8111" class="ax_default table_cell">
+          <img id="u8111_img" class="img " src="images/客人名单/u3629.png"/>
+          <div id="u8111_text" class="text ">
+            <p><span>订单数量</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8112" class="ax_default table_cell">
+          <img id="u8112_img" class="img " src="images/线路营收报表/u8110.png"/>
+          <div id="u8112_text" class="text ">
+            <p><span>支付订单</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8113" class="ax_default table_cell">
+          <img id="u8113_img" class="img " src="images/线路营收报表/u8113.png"/>
+          <div id="u8113_text" class="text ">
+            <p><span>退款订单</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8114" class="ax_default table_cell">
+          <img id="u8114_img" class="img " src="images/线路列表/u345.png"/>
+          <div id="u8114_text" class="text ">
+            <p><span>订单总额</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8115" class="ax_default table_cell">
+          <img id="u8115_img" class="img " src="images/订单详情/u4882.png"/>
+          <div id="u8115_text" class="text ">
+            <p><span>退款金额</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8116" class="ax_default table_cell">
+          <img id="u8116_img" class="img " src="images/index/u23.png"/>
+          <div id="u8116_text" class="text ">
+            <p><span>应收总额</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8117" class="ax_default table_cell">
+          <img id="u8117_img" class="img " src="images/线路营收报表/u8117.png"/>
+          <div id="u8117_text" class="text ">
+            <p><span>实收总额</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8118" class="ax_default table_cell">
+          <img id="u8118_img" class="img " src="images/线路营收报表/u8118.png"/>
+          <div id="u8118_text" class="text ">
+            <p><span>1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8119" class="ax_default table_cell">
+          <img id="u8119_img" class="img " src="images/线路营收报表/u8119.png"/>
+          <div id="u8119_text" class="text ">
+            <p><span>2018-4-28</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8120" class="ax_default table_cell">
+          <img id="u8120_img" class="img " src="images/线路营收报表/u8120.png"/>
+          <div id="u8120_text" class="text ">
+            <p><span>2P长滩4晚5天自由行 杭州直飞 一价全含 3A不指定酒店</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8121" class="ax_default table_cell">
+          <img id="u8121_img" class="img " src="images/线路营收报表/u8121.png"/>
+          <div id="u8121_text" class="text ">
+            <p><span>5</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8122" class="ax_default table_cell">
+          <img id="u8122_img" class="img " src="images/线路营收报表/u8122.png"/>
+          <div id="u8122_text" class="text ">
+            <p><span>150</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8123" class="ax_default table_cell">
+          <img id="u8123_img" class="img " src="images/线路营收报表/u8123.png"/>
+          <div id="u8123_text" class="text ">
+            <p><span>30</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8124" class="ax_default table_cell">
+          <img id="u8124_img" class="img " src="images/线路营收报表/u8122.png"/>
+          <div id="u8124_text" class="text ">
+            <p><span>30</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8125" class="ax_default table_cell">
+          <img id="u8125_img" class="img " src="images/线路营收报表/u8125.png"/>
+          <div id="u8125_text" class="text ">
+            <p><span>4</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8126" class="ax_default table_cell">
+          <img id="u8126_img" class="img " src="images/线路营收报表/u8126.png"/>
+          <div id="u8126_text" class="text ">
+            <p><span>10000</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8127" class="ax_default table_cell">
+          <img id="u8127_img" class="img " src="images/线路营收报表/u8121.png"/>
+          <div id="u8127_text" class="text ">
+            <p><span>200</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8128" class="ax_default table_cell">
+          <img id="u8128_img" class="img " src="images/线路营收报表/u8128.png"/>
+          <div id="u8128_text" class="text ">
+            <p><span>99800</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8129" class="ax_default table_cell">
+          <img id="u8129_img" class="img " src="images/线路营收报表/u8129.png"/>
+          <div id="u8129_text" class="text ">
+            <p><span>90000</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8130" class="ax_default table_cell">
+          <img id="u8130_img" class="img " src="images/线路营收报表/u8130.png"/>
+          <div id="u8130_text" class="text ">
+            <p><span>合计</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8131" class="ax_default table_cell">
+          <img id="u8131_img" class="img " src="images/价格库存/u1243.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8132" class="ax_default table_cell">
+          <img id="u8132_img" class="img " src="images/线路营收报表/u8132.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8133" class="ax_default table_cell">
+          <img id="u8133_img" class="img " src="images/订单详情/u4894.png"/>
+          <div id="u8133_text" class="text ">
+            <p><span>5</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8134" class="ax_default table_cell">
+          <img id="u8134_img" class="img " src="images/线路营收报表/u8134.png"/>
+          <div id="u8134_text" class="text ">
+            <p><span>150</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8135" class="ax_default table_cell">
+          <img id="u8135_img" class="img " src="images/客人名单/u3699.png"/>
+          <div id="u8135_text" class="text ">
+            <p><span>30</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8136" class="ax_default table_cell">
+          <img id="u8136_img" class="img " src="images/线路营收报表/u8134.png"/>
+          <div id="u8136_text" class="text ">
+            <p><span>30</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8137" class="ax_default table_cell">
+          <img id="u8137_img" class="img " src="images/线路营收报表/u8137.png"/>
+          <div id="u8137_text" class="text ">
+            <p><span>4</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8138" class="ax_default table_cell">
+          <img id="u8138_img" class="img " src="images/线路列表/u433.png"/>
+          <div id="u8138_text" class="text ">
+            <p><span>10000</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8139" class="ax_default table_cell">
+          <img id="u8139_img" class="img " src="images/订单详情/u4894.png"/>
+          <div id="u8139_text" class="text ">
+            <p><span>200</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8140" class="ax_default table_cell">
+          <img id="u8140_img" class="img " src="images/index/u58.png"/>
+          <div id="u8140_text" class="text ">
+            <p><span>99800</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8141" class="ax_default table_cell">
+          <img id="u8141_img" class="img " src="images/线路营收报表/u8141.png"/>
+          <div id="u8141_text" class="text ">
+            <p><span>90000</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8142" class="ax_default box_1">
+        <div id="u8142_div" class=""></div>
+        <div id="u8142_text" class="text ">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8143" class="ax_default box_1">
+        <div id="u8143_div" class=""></div>
+        <div id="u8143_text" class="text ">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8144" class="ax_default box_1">
+        <div id="u8144_div" class=""></div>
+        <div id="u8144_text" class="text ">
+          <p><span>3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8145" class="ax_default box_1">
+        <div id="u8145_div" class=""></div>
+        <div id="u8145_text" class="text ">
+          <p><span>&lt;</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8146" class="ax_default box_1">
+        <div id="u8146_div" class=""></div>
+        <div id="u8146_text" class="text ">
+          <p><span>&lt;&lt;</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8147" class="ax_default box_1">
+        <div id="u8147_div" class=""></div>
+        <div id="u8147_text" class="text ">
+          <p><span>&gt;</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8148" class="ax_default box_1">
+        <div id="u8148_div" class=""></div>
+        <div id="u8148_text" class="text ">
+          <p><span>&gt;&gt;</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8149" class="ax_default box_1">
+        <div id="u8149_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8150" class="ax_default label">
+        <div id="u8150_div" class=""></div>
+        <div id="u8150_text" class="text ">
+          <p><span>到第</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8151" class="ax_default label">
+        <div id="u8151_div" class=""></div>
+        <div id="u8151_text" class="text ">
+          <p><span>页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8152" class="ax_default box_1">
+        <div id="u8152_div" class=""></div>
+        <div id="u8152_text" class="text ">
+          <p><span>确认</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u8153" class="ax_default text_field">
+        <input id="u8153_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u8154" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8155" class="ax_default table_cell">
+          <img id="u8155_img" class="img " src="images/价格库存/u1207.png"/>
+          <div id="u8155_text" class="text ">
+            <p><span>序号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8156" class="ax_default table_cell">
+          <img id="u8156_img" class="img " src="images/价格库存/u1207.png"/>
+          <div id="u8156_text" class="text ">
+            <p><span>订单编号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8157" class="ax_default table_cell">
+          <img id="u8157_img" class="img " src="images/价格库存/u1207.png"/>
+          <div id="u8157_text" class="text ">
+            <p><span>游客数</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8158" class="ax_default table_cell">
+          <img id="u8158_img" class="img " src="images/价格库存/u1207.png"/>
+          <div id="u8158_text" class="text ">
+            <p><span>订单状态</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8159" class="ax_default table_cell">
+          <img id="u8159_img" class="img " src="images/价格库存/u1207.png"/>
+          <div id="u8159_text" class="text ">
+            <p><span>订单总额</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8160" class="ax_default table_cell">
+          <img id="u8160_img" class="img " src="images/价格库存/u1207.png"/>
+          <div id="u8160_text" class="text ">
+            <p><span>应收金额</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8161" class="ax_default table_cell">
+          <img id="u8161_img" class="img " src="images/价格库存/u1207.png"/>
+          <div id="u8161_text" class="text ">
+            <p><span>实收金额</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8162" class="ax_default table_cell">
+          <img id="u8162_img" class="img " src="images/价格库存/u1207.png"/>
+          <div id="u8162_text" class="text ">
+            <p><span>退款金额</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8163" class="ax_default table_cell">
+          <img id="u8163_img" class="img " src="images/价格库存/u1207.png"/>
+          <div id="u8163_text" class="text ">
+            <p><span>未付金额</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8164" class="ax_default table_cell">
+          <img id="u8164_img" class="img " src="images/价格库存/u1207.png"/>
+          <div id="u8164_text" class="text ">
+            <p><span>订单来源</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8165" class="ax_default table_cell">
+          <img id="u8165_img" class="img " src="images/价格库存/u1207.png"/>
+          <div id="u8165_text" class="text ">
+            <p><span>团号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8166" class="ax_default table_cell">
+          <img id="u8166_img" class="img " src="images/价格库存/u1207.png"/>
+          <div id="u8166_text" class="text ">
+            <p><span>线路</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8167" class="ax_default table_cell">
+          <img id="u8167_img" class="img " src="images/价格库存/u1207.png"/>
+          <div id="u8167_text" class="text ">
+            <p><span>计调</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8168" class="ax_default table_cell">
+          <img id="u8168_img" class="img " src="images/价格库存/u1207.png"/>
+          <div id="u8168_text" class="text ">
+            <p><span>下单时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8169" class="ax_default table_cell">
+          <img id="u8169_img" class="img " src="images/价格库存/u1207.png"/>
+          <div id="u8169_text" class="text ">
+            <p><span>旅行社/直客名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8170" class="ax_default table_cell">
+          <img id="u8170_img" class="img " src="images/价格库存/u1212.png"/>
+          <div id="u8170_text" class="text ">
+            <p><span>旅行社所在区域</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8171" class="ax_default table_cell">
+          <img id="u8171_img" class="img " src="images/价格库存/u1207.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8172" class="ax_default table_cell">
+          <img id="u8172_img" class="img " src="images/价格库存/u1207.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8173" class="ax_default table_cell">
+          <img id="u8173_img" class="img " src="images/价格库存/u1207.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8174" class="ax_default table_cell">
+          <img id="u8174_img" class="img " src="images/价格库存/u1207.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8175" class="ax_default table_cell">
+          <img id="u8175_img" class="img " src="images/价格库存/u1207.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8176" class="ax_default table_cell">
+          <img id="u8176_img" class="img " src="images/价格库存/u1207.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8177" class="ax_default table_cell">
+          <img id="u8177_img" class="img " src="images/价格库存/u1207.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8178" class="ax_default table_cell">
+          <img id="u8178_img" class="img " src="images/价格库存/u1207.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8179" class="ax_default table_cell">
+          <img id="u8179_img" class="img " src="images/价格库存/u1207.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8180" class="ax_default table_cell">
+          <img id="u8180_img" class="img " src="images/价格库存/u1207.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8181" class="ax_default table_cell">
+          <img id="u8181_img" class="img " src="images/价格库存/u1207.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8182" class="ax_default table_cell">
+          <img id="u8182_img" class="img " src="images/价格库存/u1207.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8183" class="ax_default table_cell">
+          <img id="u8183_img" class="img " src="images/价格库存/u1207.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8184" class="ax_default table_cell">
+          <img id="u8184_img" class="img " src="images/价格库存/u1207.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8185" class="ax_default table_cell">
+          <img id="u8185_img" class="img " src="images/价格库存/u1207.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8186" class="ax_default table_cell">
+          <img id="u8186_img" class="img " src="images/价格库存/u1212.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8187" class="ax_default table_cell">
+          <img id="u8187_img" class="img " src="images/价格库存/u1243.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8188" class="ax_default table_cell">
+          <img id="u8188_img" class="img " src="images/价格库存/u1243.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8189" class="ax_default table_cell">
+          <img id="u8189_img" class="img " src="images/价格库存/u1243.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8190" class="ax_default table_cell">
+          <img id="u8190_img" class="img " src="images/价格库存/u1243.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8191" class="ax_default table_cell">
+          <img id="u8191_img" class="img " src="images/价格库存/u1243.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8192" class="ax_default table_cell">
+          <img id="u8192_img" class="img " src="images/价格库存/u1243.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8193" class="ax_default table_cell">
+          <img id="u8193_img" class="img " src="images/价格库存/u1243.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8194" class="ax_default table_cell">
+          <img id="u8194_img" class="img " src="images/价格库存/u1243.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8195" class="ax_default table_cell">
+          <img id="u8195_img" class="img " src="images/价格库存/u1243.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8196" class="ax_default table_cell">
+          <img id="u8196_img" class="img " src="images/价格库存/u1243.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8197" class="ax_default table_cell">
+          <img id="u8197_img" class="img " src="images/价格库存/u1243.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8198" class="ax_default table_cell">
+          <img id="u8198_img" class="img " src="images/价格库存/u1243.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8199" class="ax_default table_cell">
+          <img id="u8199_img" class="img " src="images/价格库存/u1243.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8200" class="ax_default table_cell">
+          <img id="u8200_img" class="img " src="images/价格库存/u1243.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8201" class="ax_default table_cell">
+          <img id="u8201_img" class="img " src="images/价格库存/u1243.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u8202" class="ax_default table_cell">
+          <img id="u8202_img" class="img " src="images/价格库存/u1248.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8203" class="ax_default label1">
+        <div id="u8203_div" class=""></div>
+        <div id="u8203_text" class="text ">
+          <p><span>导出Excel</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8204" class="ax_default label1">
+        <div id="u8204_div" class=""></div>
+        <div id="u8204_text" class="text ">
+          <p><span>图表类型：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8205" class="ax_default button1">
+        <div id="u8205_div" class=""></div>
+        <div id="u8205_text" class="text ">
+          <p><span>折线图</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8206" class="ax_default button1">
+        <div id="u8206_div" class=""></div>
+        <div id="u8206_text" class="text ">
+          <p><span>饼图</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8207" class="ax_default button1">
+        <div id="u8207_div" class=""></div>
+        <div id="u8207_text" class="text ">
+          <p><span>柱状图</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8208" class="ax_default label1">
+        <div id="u8208_div" class=""></div>
+        <div id="u8208_text" class="text ">
+          <p><span>显示的内容为表格内的数据</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u8209" class="ax_default _连接线">
+        <img id="u8209_seg0" class="img " src="images/线路营收报表/u8209_seg0.png" alt="u8209_seg0"/>
+        <div id="u8209_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8210" class="ax_default label1">
+        <div id="u8210_div" class=""></div>
+        <div id="u8210_text" class="text ">
+          <p><span>选择起始时间之后才能导出Excel</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u8211" class="ax_default _连接线">
+        <img id="u8211_seg0" class="img " src="images/线路营收报表/u8211_seg0.png" alt="u8211_seg0"/>
+        <div id="u8211_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8212" class="ax_default _文本段落">
+        <div id="u8212_div" class=""></div>
+        <div id="u8212_text" class="text ">
+          <p><span>展示内容中，全部线路及单条线路为单选。选择单条线路后，显示线路搜索框。该搜索框为模糊搜索，可搜索线路编号及线路名称。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u8213" class="ax_default ax_default_hidden" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8214" class="ax_default box_11">
+          <div id="u8214_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8215" class="ax_default label1">
+          <div id="u8215_div" class=""></div>
+          <div id="u8215_text" class="text ">
+            <p><span>线路搜索：</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u8216" class="ax_default _连接线">
+        <img id="u8216_seg0" class="img " src="images/线路营收报表/u8216_seg0.png" alt="u8216_seg0"/>
+        <img id="u8216_seg1" class="img " src="images/交通管理/u5858_seg2.png" alt="u8216_seg1"/>
+        <img id="u8216_seg2" class="img " src="images/线路营收报表/u8216_seg2.png" alt="u8216_seg2"/>
+        <img id="u8216_seg3" class="img " src="images/线路营收报表/u8216_seg3.png" alt="u8216_seg3"/>
+        <div id="u8216_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8217" class="ax_default label1">
+        <div id="u8217_div" class=""></div>
+        <div id="u8217_text" class="text ">
+          <p><span>点击切换图标类型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u8218" class="ax_default _连接线">
+        <img id="u8218_seg0" class="img " src="images/线路营收报表/u8218_seg0.png" alt="u8218_seg0"/>
+        <img id="u8218_seg1" class="img " src="images/线路营收报表/u8218_seg1.png" alt="u8218_seg1"/>
+        <img id="u8218_seg2" class="img " src="images/收款管理—应收/u7329_seg2.png" alt="u8218_seg2"/>
+        <div id="u8218_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8219" class="ax_default _文本段落">
+        <div id="u8219_div" class=""></div>
+        <div id="u8219_text" class="text ">
+          <p><span>点击切换时间维度。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u8220" class="ax_default _连接线">
+        <img id="u8220_seg0" class="img " src="images/线路营收报表/u8220_seg0.png" alt="u8220_seg0"/>
+        <img id="u8220_seg1" class="img " src="images/线路营收报表/u8220_seg1.png" alt="u8220_seg1"/>
+        <img id="u8220_seg2" class="img " src="images/线路营收报表/u8220_seg2.png" alt="u8220_seg2"/>
+        <img id="u8220_seg3" class="img " src="images/线路营收报表/u8220_seg3.png" alt="u8220_seg3"/>
+        <img id="u8220_seg4" class="img " src="images/线路营收报表/u8220_seg4.png" alt="u8220_seg4"/>
+        <div id="u8220_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8221" class="ax_default _文本段落">
+        <div id="u8221_div" class=""></div>
+        <div id="u8221_text" class="text ">
+          <p><span>点击切换图标展示内容。</span></p><p><span>图表默认展示线路营收。纵轴为展示数据。横轴为时间。表格所展示的数据，均为实收金额</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u8222" class="ax_default _连接线">
+        <img id="u8222_seg0" class="img " src="images/线路营收报表/u8222_seg0.png" alt="u8222_seg0"/>
+        <img id="u8222_seg1" class="img " src="images/线路营收报表/u8222_seg1.png" alt="u8222_seg1"/>
+        <img id="u8222_seg2" class="img " src="images/线路营收报表/u8222_seg2.png" alt="u8222_seg2"/>
+        <div id="u8222_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8223" class="ax_default flow_shape">
+        <div id="u8223_div" class=""></div>
+        <div id="u8223_text" class="text ">
+          <p><span>选择展示内容</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8224" class="ax_default flow_shape">
+        <div id="u8224_div" class=""></div>
+        <div id="u8224_text" class="text ">
+          <p><span>全部线路</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8225" class="ax_default flow_shape">
+        <div id="u8225_div" class=""></div>
+        <div id="u8225_text" class="text ">
+          <p><span>单条线路</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u8226" class="compound ax_default arrow" WidgetHeight="33" WidgetWidth="1" CompoundMode="true">
+        <img id="u8226_img" class="singleImg img " src="images/线路营收报表/u8226.png"/>
+        <div id="u8226p000" class="ax_vector_shape" WidgetTopLeftX="-0.421052631578947" WidgetTopLeftY="0" WidgetTopRightX="-0.421052631578947" WidgetTopRightY="-0.166666666666667" WidgetBottomLeftX="0.447368421052632" WidgetBottomLeftY="0" WidgetBottomRightX="0.447368421052632" WidgetBottomRightY="-0.166666666666667">
+          <img id="u8226p000_img" class="img " src="images/线路营收报表/u8226p000.png"/>
+        </div>
+        <div id="u8226p001" class="ax_vector_shape" WidgetTopLeftX="-0.25" WidgetTopLeftY="-0.25" WidgetTopRightX="0" WidgetTopRightY="-0.25" WidgetBottomLeftX="-0.25" WidgetBottomLeftY="8" WidgetBottomRightX="0" WidgetBottomRightY="8">
+          <img id="u8226p001_img" class="img " src="images/订单列表/u4291p001.png"/>
+        </div>
+        <div id="u8226p002" class="ax_vector_shape" WidgetTopLeftX="1.31818181818182" WidgetTopLeftY="0" WidgetTopRightX="1.31818181818182" WidgetTopRightY="0.05" WidgetBottomLeftX="-0.181818181818182" WidgetBottomLeftY="0" WidgetBottomRightX="-0.181818181818182" WidgetBottomRightY="0.05">
+          <img id="u8226p002_img" class="img " src="images/收款管理—应收/u7342p002.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u8227" class="ax_default arrow">
+        <img id="u8227_img" class="img " src="images/线路营收报表/u8227.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8228" class="ax_default flow_shape">
+        <div id="u8228_div" class=""></div>
+        <div id="u8228_text" class="text ">
+          <p><span>选择订单状态</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8229" class="ax_default flow_shape">
+        <div id="u8229_div" class=""></div>
+        <div id="u8229_text" class="text ">
+          <p><span>选择起始时间</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8230" class="ax_default flow_shape">
+        <div id="u8230_div" class=""></div>
+        <div id="u8230_text" class="text ">
+          <p><span>展示图表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8231" class="ax_default flow_shape">
+        <div id="u8231_div" class=""></div>
+        <div id="u8231_text" class="text ">
+          <p><span>展示数据</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u8232" class="compound ax_default arrow" WidgetHeight="1" WidgetWidth="79" CompoundMode="true">
+        <img id="u8232_img" class="singleImg img " src="images/线路营收报表/u8232.png"/>
+        <div id="u8232p000" class="ax_vector_shape" WidgetTopLeftX="-0.464285714285714" WidgetTopLeftY="0" WidgetTopRightX="0.476190476190476" WidgetTopRightY="0" WidgetBottomLeftX="-0.464285714285714" WidgetBottomLeftY="0.166666666666667" WidgetBottomRightX="0.476190476190476" WidgetBottomRightY="0.166666666666667">
+          <img id="u8232p000_img" class="img " src="images/线路营收报表/u8232p000.png"/>
+        </div>
+        <div id="u8232p001" class="ax_vector_shape" WidgetTopLeftX="-0.25" WidgetTopLeftY="-0.25" WidgetTopRightX="19.5" WidgetTopRightY="-0.25" WidgetBottomLeftX="-0.25" WidgetBottomLeftY="0" WidgetBottomRightX="19.5" WidgetBottomRightY="0">
+          <img id="u8232p001_img" class="img " src="images/收款管理—应收/u7345p001.png"/>
+        </div>
+        <div id="u8232p002" class="ax_vector_shape" WidgetTopLeftX="3.75" WidgetTopLeftY="0.05" WidgetTopRightX="-0.2" WidgetTopRightY="0.05" WidgetBottomLeftX="3.75" WidgetBottomLeftY="0" WidgetBottomRightX="-0.2" WidgetBottomRightY="0">
+          <img id="u8232p002_img" class="img " src="images/收款管理—应收/u7345p002.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u8233" class="compound ax_default arrow" WidgetHeight="1" WidgetWidth="85" CompoundMode="true">
+        <img id="u8233_img" class="singleImg img " src="images/线路营收报表/u8233.png"/>
+        <div id="u8233p000" class="ax_vector_shape" WidgetTopLeftX="-0.477777777777778" WidgetTopLeftY="0" WidgetTopRightX="0.466666666666667" WidgetTopRightY="0" WidgetBottomLeftX="-0.477777777777778" WidgetBottomLeftY="0.166666666666667" WidgetBottomRightX="0.466666666666667" WidgetBottomRightY="0.166666666666667">
+          <img id="u8233p000_img" class="img " src="images/线路营收报表/u8233p000.png"/>
+        </div>
+        <div id="u8233p001" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="-0.25" WidgetTopRightX="21.25" WidgetTopRightY="-0.25" WidgetBottomLeftX="0" WidgetBottomLeftY="0" WidgetBottomRightX="21.25" WidgetBottomRightY="0">
+          <img id="u8233p001_img" class="img " src="images/线路营收报表/u8233p001.png"/>
+        </div>
+        <div id="u8233p002" class="ax_vector_shape" WidgetTopLeftX="3.68181818181818" WidgetTopLeftY="0.05" WidgetTopRightX="-0.181818181818182" WidgetTopRightY="0.05" WidgetBottomLeftX="3.68181818181818" WidgetBottomLeftY="0" WidgetBottomRightX="-0.181818181818182" WidgetBottomRightY="0">
+          <img id="u8233p002_img" class="img " src="images/收款管理—应收/u7342p002.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u8234" class="ax_default line1">
+        <img id="u8234_img" class="img " src="images/线路营收报表/u8234.png"/>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u8235" class="ax_default line1">
+        <img id="u8235_img" class="img " src="images/线路营收报表/u8235.png"/>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u8236" class="compound ax_default arrow" WidgetHeight="1" WidgetWidth="46" CompoundMode="true">
+        <img id="u8236_img" class="singleImg img " src="images/线路营收报表/u8236.png"/>
+        <div id="u8236p000" class="ax_vector_shape" WidgetTopLeftX="-0.46" WidgetTopLeftY="0" WidgetTopRightX="0.46" WidgetTopRightY="0" WidgetBottomLeftX="-0.46" WidgetBottomLeftY="0.166666666666667" WidgetBottomRightX="0.46" WidgetBottomRightY="0.166666666666667">
+          <img id="u8236p000_img" class="img " src="images/线路营收报表/u8236p000.png"/>
+        </div>
+        <div id="u8236p001" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="-0.25" WidgetTopRightX="11.5" WidgetTopRightY="-0.25" WidgetBottomLeftX="0" WidgetBottomLeftY="0" WidgetBottomRightX="11.5" WidgetBottomRightY="0">
+          <img id="u8236p001_img" class="img " src="images/线路营收报表/u8233p001.png"/>
+        </div>
+        <div id="u8236p002" class="ax_vector_shape" WidgetTopLeftX="2.1" WidgetTopLeftY="0.05" WidgetTopRightX="-0.2" WidgetTopRightY="0.05" WidgetBottomLeftX="2.1" WidgetBottomLeftY="0" WidgetBottomRightX="-0.2" WidgetBottomRightY="0">
+          <img id="u8236p002_img" class="img " src="images/收款管理—应收/u7345p002.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u8237" class="compound ax_default arrow" WidgetHeight="1" WidgetWidth="46" CompoundMode="true">
+        <img id="u8237_img" class="singleImg img " src="images/线路营收报表/u8236.png"/>
+        <div id="u8237p000" class="ax_vector_shape" WidgetTopLeftX="-0.46" WidgetTopLeftY="-0.166666666666667" WidgetTopRightX="0.46" WidgetTopRightY="-0.166666666666667" WidgetBottomLeftX="-0.46" WidgetBottomLeftY="0" WidgetBottomRightX="0.46" WidgetBottomRightY="0">
+          <img id="u8237p000_img" class="img " src="images/线路营收报表/u8237p000.png"/>
+        </div>
+        <div id="u8237p001" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="-0.5" WidgetTopRightX="11.5" WidgetTopRightY="-0.5" WidgetBottomLeftX="0" WidgetBottomLeftY="0" WidgetBottomRightX="11.5" WidgetBottomRightY="0">
+          <img id="u8237p001_img" class="img " src="images/订单列表/u4297p001.png"/>
+        </div>
+        <div id="u8237p002" class="ax_vector_shape" WidgetTopLeftX="2.1" WidgetTopLeftY="0" WidgetTopRightX="-0.2" WidgetTopRightY="0" WidgetBottomLeftX="2.1" WidgetBottomLeftY="-0.05" WidgetBottomRightX="-0.2" WidgetBottomRightY="-0.05">
+          <img id="u8237p002_img" class="img " src="images/订单列表/u4297p002.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8238" class="ax_default button1">
+        <div id="u8238_div" class=""></div>
+        <div id="u8238_text" class="text ">
+          <p><span>当周报表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (导航) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8240" class="ax_default box_1">
+        <div id="u8240_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u8241" class="ax_default" data-left="0" data-top="0" data-width="1200" data-height="121">
+
+        <!-- Unnamed (图片) -->
+        <div id="u8242" class="ax_default _图片">
+          <img id="u8242_img" class="img " src="images/首页/u186.png"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8243" class="ax_default box_2">
+          <div id="u8243_div" class=""></div>
+          <div id="u8243_text" class="text ">
+            <p><span>馨途ERP系统</span></p><p><span>tripb2b.com</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8244" class="ax_default box_1">
+          <div id="u8244_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u8245" class="ax_default _图片">
+          <img id="u8245_img" class="img " src="images/首页/u189.png"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8246" class="ax_default box_2">
+          <div id="u8246_div" class=""></div>
+          <div id="u8246_text" class="text ">
+            <p><span>李逍遥</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8247" class="ax_default box_2">
+          <div id="u8247_div" class=""></div>
+          <div id="u8247_text" class="text ">
+            <p><span style="text-decoration:underline;">退出</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u8248" class="ax_default _图片">
+          <img id="u8248_img" class="img " src="images/首页/u192.png"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8249" class="ax_default box_2">
+          <div id="u8249_div" class=""></div>
+          <div id="u8249_text" class="text ">
+            <p><span>帮助</span></p>
+          </div>
+        </div>
+
+        <!-- 矩形-首页 (矩形) -->
+        <div id="u8250" class="ax_default box_2 selected" data-label="矩形-首页">
+          <div id="u8250_div" class="selected"></div>
+          <div id="u8250_text" class="text ">
+            <p><span>首页</span></p>
+          </div>
+        </div>
+
+        <!-- 矩形-产品管理 (矩形) -->
+        <div id="u8251" class="ax_default box_2" data-label="矩形-产品管理">
+          <div id="u8251_div" class=""></div>
+          <div id="u8251_text" class="text ">
+            <p><span>产品管理</span></p>
+          </div>
+        </div>
+
+        <!-- 矩形-订单管理 (矩形) -->
+        <div id="u8252" class="ax_default box_2" data-label="矩形-订单管理">
+          <div id="u8252_div" class=""></div>
+          <div id="u8252_text" class="text ">
+            <p><span>订单管理</span></p>
+          </div>
+        </div>
+
+        <!-- 矩形-财务管理 (矩形) -->
+        <div id="u8253" class="ax_default box_2" data-label="矩形-财务管理">
+          <div id="u8253_div" class=""></div>
+          <div id="u8253_text" class="text ">
+            <p><span>控位管理</span></p>
+          </div>
+        </div>
+
+        <!-- 矩形-客户管理 (矩形) -->
+        <div id="u8254" class="ax_default box_2" data-label="矩形-客户管理">
+          <div id="u8254_div" class=""></div>
+          <div id="u8254_text" class="text ">
+            <p><span>客户管理</span></p>
+          </div>
+        </div>
+
+        <!-- 矩形-报表管理 (矩形) -->
+        <div id="u8255" class="ax_default box_2" data-label="矩形-报表管理">
+          <div id="u8255_div" class=""></div>
+          <div id="u8255_text" class="text ">
+            <p><span>数据中心</span></p>
+          </div>
+        </div>
+
+        <!-- 矩形-系统设置 (矩形) -->
+        <div id="u8256" class="ax_default box_2" data-label="矩形-系统设置">
+          <div id="u8256_div" class=""></div>
+          <div id="u8256_text" class="text ">
+            <p><span>系统设置</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u8257" class="ax_default box_2">
+          <div id="u8257_div" class=""></div>
+          <div id="u8257_text" class="text ">
+            <p><span>客服电话：400 2345 123</span></p>
+          </div>
+        </div>
+
+        <!-- dtmb-二级导航 (动态面板) -->
+        <div id="u8258" class="ax_default ax_default_hidden" data-label="dtmb-二级导航" style="display:none; visibility: hidden">
+          <div id="u8258_state0" class="panel_state" data-label="产品管理" style="">
+            <div id="u8258_state0_content" class="panel_state_content">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8259" class="ax_default box_2">
+                <div id="u8259_div" class=""></div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8260" class="ax_default box_2">
+                <div id="u8260_div" class=""></div>
+                <div id="u8260_text" class="text ">
+                  <p><span>跟团游</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8261" class="ax_default box_2">
+                <div id="u8261_div" class=""></div>
+                <div id="u8261_text" class="text ">
+                  <p><span>自由行</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8262" class="ax_default box_2">
+                <div id="u8262_div" class=""></div>
+                <div id="u8262_text" class="text ">
+                  <p><span>签证</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8263" class="ax_default box_2">
+                <div id="u8263_div" class=""></div>
+                <div id="u8263_text" class="text ">
+                  <p><span>wifi</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (水平线) -->
+              <div id="u8264" class="ax_default line">
+                <img id="u8264_img" class="img " src="images/首页/u208.png"/>
+              </div>
+            </div>
+          </div>
+          <div id="u8258_state1" class="panel_state" data-label="订单管理" style="visibility: hidden;">
+            <div id="u8258_state1_content" class="panel_state_content">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8265" class="ax_default box_2">
+                <div id="u8265_div" class=""></div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8266" class="ax_default box_2">
+                <div id="u8266_div" class=""></div>
+                <div id="u8266_text" class="text ">
+                  <p><span>下单收客</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8267" class="ax_default box_2">
+                <div id="u8267_div" class=""></div>
+                <div id="u8267_text" class="text ">
+                  <p><span>订单列表</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="u8258_state2" class="panel_state" data-label="控位管理" style="visibility: hidden;">
+            <div id="u8258_state2_content" class="panel_state_content">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8268" class="ax_default box_2">
+                <div id="u8268_div" class=""></div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8269" class="ax_default box_2">
+                <div id="u8269_div" class=""></div>
+                <div id="u8269_text" class="text ">
+                  <p><span>交通管理</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="u8258_state3" class="panel_state" data-label="客户管理" style="visibility: hidden;">
+            <div id="u8258_state3_content" class="panel_state_content">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8270" class="ax_default box_2">
+                <div id="u8270_div" class=""></div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8271" class="ax_default box_2">
+                <div id="u8271_div" class=""></div>
+                <div id="u8271_text" class="text ">
+                  <p><span>游客管理</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8272" class="ax_default box_2">
+                <div id="u8272_div" class=""></div>
+                <div id="u8272_text" class="text ">
+                  <p><span>地接社管理</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8273" class="ax_default box_2">
+                <div id="u8273_div" class=""></div>
+                <div id="u8273_text" class="text ">
+                  <p><span>机票商管理</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8274" class="ax_default box_2">
+                <div id="u8274_div" class=""></div>
+                <div id="u8274_text" class="text ">
+                  <p><span>分销商管理</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="u8258_state4" class="panel_state" data-label="报表管理" style="visibility: hidden;">
+            <div id="u8258_state4_content" class="panel_state_content">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8275" class="ax_default box_2">
+                <div id="u8275_div" class=""></div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8276" class="ax_default box_2">
+                <div id="u8276_div" class=""></div>
+                <div id="u8276_text" class="text ">
+                  <p><span>付款统计</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8277" class="ax_default box_2">
+                <div id="u8277_div" class=""></div>
+                <div id="u8277_text" class="text ">
+                  <p><span>收款统计</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8278" class="ax_default box_2">
+                <div id="u8278_div" class=""></div>
+                <div id="u8278_text" class="text ">
+                  <p><span>线路营收报表</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8279" class="ax_default box_2">
+                <div id="u8279_div" class=""></div>
+                <div id="u8279_text" class="text ">
+                  <p><span>计调营收报表</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8280" class="ax_default box_2">
+                <div id="u8280_div" class=""></div>
+                <div id="u8280_text" class="text ">
+                  <p><span>团队统计</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8281" class="ax_default box_2">
+                <div id="u8281_div" class=""></div>
+                <div id="u8281_text" class="text ">
+                  <p><span>付款管理</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8282" class="ax_default box_2">
+                <div id="u8282_div" class=""></div>
+                <div id="u8282_text" class="text ">
+                  <p><span>收款管理</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="u8258_state5" class="panel_state" data-label="系统设置" style="visibility: hidden;">
+            <div id="u8258_state5_content" class="panel_state_content">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8283" class="ax_default box_2">
+                <div id="u8283_div" class=""></div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8284" class="ax_default box_2">
+                <div id="u8284_div" class=""></div>
+                <div id="u8284_text" class="text ">
+                  <p><span>公司信息设置</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8285" class="ax_default box_2">
+                <div id="u8285_div" class=""></div>
+                <div id="u8285_text" class="text ">
+                  <p><span>线路分类</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8286" class="ax_default box_2">
+                <div id="u8286_div" class=""></div>
+                <div id="u8286_text" class="text ">
+                  <p><span>角色管理</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8287" class="ax_default box_2">
+                <div id="u8287_div" class=""></div>
+                <div id="u8287_text" class="text ">
+                  <p><span>审批配置</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8288" class="ax_default box_2">
+                <div id="u8288_div" class=""></div>
+                <div id="u8288_text" class="text ">
+                  <p><span>图片库</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8289" class="ax_default box_2">
+                <div id="u8289_div" class=""></div>
+                <div id="u8289_text" class="text ">
+                  <p><span>员工管理</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8290" class="ax_default box_2">
+                <div id="u8290_div" class=""></div>
+                <div id="u8290_text" class="text ">
+                  <p><span>对接平台配置</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u8291" class="ax_default box_2">
+                <div id="u8291_div" class=""></div>
+                <div id="u8291_text" class="text ">
+                  <p><span>操作日志</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
